@@ -57,3 +57,32 @@
   padding: 1em;
   background-color: var(--branco)
 }
+
+@media screen and (min-width:1024px){
+  .titulo_W{
+    font-size: 25px;
+    color: rgb(190, 45, 248);
+    display: block;
+  }
+
+
+.opcoes {
+  display: flex;
+}
+
+.opcoes-li{
+  padding: 0 1em;
+}
+
+.Item_Li{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.container__imagem--transparente{
+  display: none;
+  
+}
+.cabecalho__menu--hamburguer{
+  display: none;
+}
+}
